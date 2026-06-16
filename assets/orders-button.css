@@ -1,0 +1,75 @@
+.sd-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    z-index: 5;
+    margin-left: 8px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.sd-btn {
+    display: inline-block;
+    padding: 3px 9px;
+    font-size: 11px;
+    line-height: 1.5;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    white-space: nowrap;
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sd-btn:disabled { cursor: default; opacity: .85; }
+
+.sd-push        { background: #2271b1; border-color: #2271b1; color: #fff; }
+.sd-push:hover  { background: #135e96; border-color: #135e96; }
+
+.sd-ok          { background: #1a7c4b; border-color: #1a7c4b; color: #fff; }
+.sd-ok:hover    { background: #14633c; border-color: #14633c; }
+
+.sd-cancelled       { background: #b26a00; border-color: #b26a00; color: #fff; }
+.sd-cancelled:hover { background: #8f5500; border-color: #8f5500; }
+
+.sd-err         { background: #b32d2e; border-color: #b32d2e; color: #fff; }
+
+.sd-busy        { background: #787c82; border-color: #787c82; color: #fff; }
+
+/* Floating confirm popover — appended to <body>, immune to table re-render */
+.sd-pop {
+    position: fixed;
+    z-index: 100000;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 6px;
+    box-shadow: 0 4px 16px rgba(0,0,0,.18);
+    padding: 10px 12px;
+    min-width: 180px;
+    max-width: 260px;
+}
+.sd-pop-q {
+    font-size: 12px;
+    line-height: 1.4;
+    color: #1d2327;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.sd-pop-actions { display: flex; gap: 6px; justify-content: flex-end; }
+.sd-pop-actions button {
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-weight: 500;
+}
+.sd-pop-yes        { background: #2271b1; border-color: #2271b1; color: #fff; }
+.sd-pop-yes:hover  { background: #135e96; }
+.sd-pop-yes-danger { background: #b32d2e; border-color: #b32d2e; color: #fff; }
+.sd-pop-yes-danger:hover { background: #8a2424; }
+.sd-pop-no         { background: #f6f7f7; border-color: #c3c4c7; color: #1d2327; }
+.sd-pop-no:hover   { background: #e9eaea; }
