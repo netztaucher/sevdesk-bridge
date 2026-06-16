@@ -115,6 +115,12 @@ Kleinunternehmer §19: `taxRule 11` / `taxType 'ss'`, `smallSettlement 1`, 0 % (
 - **Festgeschriebene Belege** sind GoBD-immutabel und nicht löschbar; Korrekturen laufen über Gutschrift/Neu-Übertragung ([ADR-0008](docs/adr/0008-restorno-via-repush.md)).
 - **DATEV-Export per API** benötigt `accountingYearBegin` (nur über sevDesk-UI setzbar).
 
+## Über
+
+Entwickelt von **[netztaucher | digital](https://netztaucher.com/wordpress)** — WordPress-Projekte und individuelle Plugin-Entwicklung.
+
+Du brauchst eine maßgeschneiderte WordPress-Lösung oder ein Plugin wie dieses für deinen Shop, dein CRM oder deine Buchhaltung? → **[netztaucher.com/wordpress](https://netztaucher.com/wordpress)**
+
 ## Lizenz
 
 GPL-2.0 (wie WordPress).

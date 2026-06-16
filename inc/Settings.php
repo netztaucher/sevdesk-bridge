@@ -116,6 +116,11 @@ class Settings
             echo '</tbody></table>';
         }
 
+        echo '<p style="margin-top:24px;color:#646970;font-size:12px;">';
+        echo 'sevDesk Bridge — entwickelt von <a href="https://netztaucher.com/wordpress" target="_blank" rel="noopener noreferrer"><strong>netztaucher | digital</strong></a>. ';
+        echo 'WordPress-Projekte &amp; individuelle Plugin-Entwicklung.';
+        echo '</p>';
+
         echo '</div>';
     }
 

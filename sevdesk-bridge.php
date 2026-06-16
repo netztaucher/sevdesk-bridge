@@ -1,9 +1,11 @@
 <?php
 /*
 Plugin Name: sevDesk Bridge
-Description: Pusht FluentCart-Bestellungen als Rechnung in sevDesk (Kleinunternehmer §19, taxType=noUst).
+Plugin URI: https://netztaucher.com/wordpress
+Description: Überträgt bezahlte FluentCart-Bestellungen automatisch als Rechnungen nach sevDesk (Kleinunternehmer §19). Storno, Wiederübertragung, EÜR-konforme Buchung.
 Version: 0.7.1
-Author: Netztaucher
+Author: netztaucher | digital
+Author URI: https://netztaucher.com/wordpress
 Requires PHP: 7.4
 */
 
